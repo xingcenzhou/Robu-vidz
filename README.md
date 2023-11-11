@@ -8,11 +8,11 @@ The project dives into the company's database, aiming to gain a better understan
 # Tools and goals
 The project uses PostgreSQL and PgAdmin, the goal is to answer the following business questions:
 
-● Which movies contributed the most/least to revenue gain?
-● What was the average rental duration for all videos?
-● Which countries are Rockbuster customers based in?
-● Where are customers with a high l ifetime value based?
-● Do sales figures vary between geographic regions?
+1. Which movies contributed the most/least to revenue gain?
+2. What was the average rental duration for all videos?
+3. Which countries are Rockbuster customers based in?
+4. Where are customers with a high l ifetime value based?
+5. Do sales figures vary between geographic regions?
 
 # Result
 This repo includes two example SQL queries that were used to answer some of the business questions. 
