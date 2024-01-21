@@ -1,3 +1,5 @@
+-- A SQL query that checks for all non-uniform data in the table 'film'.
+
 SELECT COUNT(DISTINCT film_id)
 	COUNT(DISTINCT title)
 	COUNT(DISTINCT description)
