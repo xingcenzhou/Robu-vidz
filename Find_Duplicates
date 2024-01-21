@@ -1,3 +1,5 @@
+-- A SQL query that searches for duplicates within the table 'film'.
+
 SELECT title,
   	release_year,
 	language_id,
