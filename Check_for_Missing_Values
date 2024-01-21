@@ -1,3 +1,5 @@
+-- A SQL query that checks for all missing values in the table 'film'.
+
 SELECT COUNT(film_id) AS cnt_film_id,
 	COUNT(title) AS cnt_title,
 	COUNT(description) AS cnt_description,
