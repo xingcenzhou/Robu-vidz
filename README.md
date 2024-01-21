@@ -4,6 +4,7 @@ Uses PostgreSQL to investigate and recommend the launch strategy for a fictional
 # Background
 The fictional company RockBuster Stealth LLC wants to launch an online video rental service among the stiff competition of video streaming services.
 The project dives into the company's database, aiming to gain a better understanding of the film inventory, markets, sales and customer distribution, for a targeted focus on the online video rental platform.
+Read a detailed project brief [here](https://drive.google.com/file/d/1dHt2QoHRi1AS1ZcCnyH0Ay5Oe1eOylsu/view?usp=sharing)
 
 # Tools and goals
 The project uses PostgreSQL, PgAdmin and Tableau Public, with the goal of answering the following business questions:
