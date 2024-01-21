@@ -1,0 +1,12 @@
+SELECT COUNT(DISTINCT film_id)
+	COUNT(DISTINCT title)
+	COUNT(DISTINCT description)
+	COUNT(DISTINCT release_year)
+	COUNT(DISTINCT language_id)
+	COUNT(DISTINCT rental_duration)
+	COUNT(DISTINCT length)
+	COUNT(DISTINCT replacement_cost)
+	COUNT(DISTINCT rating) 
+	COUNT(DISTINCT last_update)
+	COUNT(DISTINCT special_features)
+FROM film

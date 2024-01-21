@@ -1,0 +1,13 @@
+SELECT title,
+  	release_year,
+	language_id,
+	rental_duration,
+	length,
+	COUNT(*)
+FROM film
+GROUP BY title,
+	release_year,
+	language_id,
+	rental_duration,
+	length
+HAVING COUNT(*)>1;

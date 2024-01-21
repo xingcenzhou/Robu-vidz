@@ -1,0 +1,12 @@
+SELECT COUNT(film_id) AS cnt_film_id,
+	COUNT(title) AS cnt_title,
+	COUNT(description) AS cnt_description,
+	COUNT(release_year) AS cnt_release_year,
+	COUNT(language_id) AS cnt_language_id,
+	COUNT(rental_duration) AS cnt_rental_duration,
+	COUNT(length) AS cnt_length,
+	COUNT(replacement_cost) AS cnt_replacement_cost,
+	COUNT(rating) AS cnt_rating,
+	COUNT(last_update) AS cnt_last_update,
+	COUNT(special_features) AS cnt_special_features
+FROM film

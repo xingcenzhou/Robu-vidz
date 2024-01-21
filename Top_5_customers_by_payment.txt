@@ -1,0 +1,19 @@
+SELECT B.customer_id, B.first_name, B.last_name, D.city, SUM(A.amount) AS total_payment
+FROM payment A
+INNER JOIN customer B ON A.customer_id = B.customer_id
+INNER JOIN address C ON B.address_id = C.address_id
+INNER JOIN city D ON C.city_id = D.city_id
+WHERE city = 'Aurora' OR
+	city = 'Acua' OR
+	city = 'Citrus Heights' OR
+	city = 'Iwaki' OR
+	city = 'Ambattur' OR
+	city = 'Shanwei' OR
+	city = 'So Leopoldo' OR
+	city = 'Teboksary' OR
+	city = 'Tianjin' OR
+	city = 'Cianjur'
+
+GROUP BY B.customer_id, B.first_name, B.last_name, D.city
+ORDER BY SUM(A.amount) DESC
+LIMIT 5
