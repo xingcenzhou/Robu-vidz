@@ -1,3 +1,5 @@
+-- A SQL query that displays the basic stats of selected columns from the table 'film'.
+
 SELECT rating,
        COUNT(title) AS count_of_movies,
        AVG(rental_rate) AS average_movie_rental_rate,
