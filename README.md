@@ -1,8 +1,8 @@
 # Robu-vidz
-Uses PostgreSQL to investigate and recommend the launch strategy for a fictional online video service.
+Uses PostgreSQL to investigate and recommend the launch strategy for an online video service of a fictional company 'Rockbuster Stealth LLC'.
 
 # Background
-The fictional company RockBuster Stealth LLC wants to launch an online video rental service among the stiff competition of video streaming services.
+RockBuster Stealth LLC wants to launch an online video rental service among the stiff competition of video streaming services.
 The project dives into the company's database, aiming to gain a better understanding of the film inventory, markets, sales and customer distribution, for a targeted focus on the online video rental platform.
 Read a detailed project brief [here](https://drive.google.com/file/d/1dHt2QoHRi1AS1ZcCnyH0Ay5Oe1eOylsu/view?usp=sharing).
 
@@ -16,6 +16,6 @@ The project uses PostgreSQL, PgAdmin and Tableau Public, with the goal of answer
 5. Do sales figures vary between geographic regions?
 
 # Result
-This repo includes two example SQL queries that were used to answer some of the business questions. 
-The final results are delivered via presentation, view the slides on [Canva](https://www.canva.com/design/DAFwIzw9Uxw/SHx2TkNq0VH5uugLSXWUhw/edit?utm_content=DAFwIzw9Uxw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
+This repo includes a few SQL queries that were written to answer the business questions. 
+The final results are delivered via presentation, please find the slides [here](https://www.canva.com/design/DAFwIzw9Uxw/SHx2TkNq0VH5uugLSXWUhw/edit?utm_content=DAFwIzw9Uxw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 The visualizations are published on [Tableau Public](https://public.tableau.com/app/profile/xingcen.zhou7732/viz/InsightsRockbusterStealthLLC/Insights).
