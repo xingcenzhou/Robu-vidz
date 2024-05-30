@@ -15,7 +15,7 @@ The project uses PostgreSQL, PgAdmin and Tableau Public, with the goal of answer
 4. Where are customers with a high l ifetime value based?
 5. Do sales figures vary between geographic regions?
 
-# Result
+# Results
 This repo includes a few SQL queries that were written to answer the business questions. 
 The final results are delivered via presentation, please find the slides [here](https://www.canva.com/design/DAFwIzw9Uxw/SHx2TkNq0VH5uugLSXWUhw/edit?utm_content=DAFwIzw9Uxw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton).
 The visualizations are published on [Tableau Public](https://public.tableau.com/app/profile/xingcen.zhou7732/viz/InsightsRockbusterStealthLLC/Insights).
